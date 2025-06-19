@@ -25,8 +25,10 @@ body {
   transform: scale(1.05);
 }
 
-#emulador-container {
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
+#emulador-container canvas {
+  width: 854px;
+  height: 480px;
+  image-rendering: pixelated; /* para não borrar o pixel art */
+  display: block;
+  margin: 0 auto;
 }
