@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jogos GBA Online</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Escolha um jogo GBA</h1>
+
+  <div class="galeria">
+    <img src="capas/Fire Red Super.jpg" alt="Pokémon" onclick="rodarJogo('roms/Moemon - Fire Red - BR.gba')" />
+    <img src="capas/Fire Red.jpg" alt="Mario" onclick="rodarJogo('roms/Pokémon - Fire Red - BR.gba')" />
+    <img src="capas/Moemon Red.jpg" alt="Pokémon" onclick="rodarJogo('roms/Pokémon Emeralda BR Deluxe.gba')" />
+    <img src="capas/Pokémon Emeralda BR Deluxe.jpg" alt="Mario" onclick="rodarJogo('roms/Pokémon Fire Red Super - BR.gba')" />
+    <img src="capas/Pokémon Light Platinum - BR.jpg" alt="Pokémon" onclick="rodarJogo('roms/Pokémon Light Platinum - BR.gba')" />
+  </div>
+
+  <div id="emulador-container"></div>
+
+  <script src="js/gbajs.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
