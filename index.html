@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <title>Galeria de Jogos GBA</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="gba.js"></script>
-  <script src="loader.js"></script>
+  <meta charset="UTF-8">
+  <title>Jogos GBA Online</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Meus Jogos GBA</h1>
-
-  <div id="gallery"></div>
-
-  <div id="emulator-container" style="margin-top:30px;">
-    <canvas id="emulator" width="240" height="160"></canvas>
+  <h1>Escolha um jogo GBA</h1>
+  <div class="galeria">
+    <img src="capas/pokemon.jpg" alt="Pokémon" onclick="rodarJogo('roms/pokemon.gba')">
+    <img src="capas/mario.jpg" alt="Mario" onclick="rodarJogo('roms/mario.gba')">
   </div>
+  <div id="emulador-container"></div>
 
-  <script src="script.js"></script>
+  <script src="js/gbajs.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
