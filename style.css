@@ -28,7 +28,7 @@ body {
 #emulador-container canvas {
   width: 854px;
   height: 480px;
-  image-rendering: pixelated; /* para não borrar o pixel art */
+  image-rendering: pixelated;
   display: block;
   margin: 0 auto;
 }
