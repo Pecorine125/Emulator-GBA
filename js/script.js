@@ -3,8 +3,8 @@ function rodarJogo(caminhoROM) {
   container.innerHTML = ''; // limpa o emulador antigo
 
   const canvas = document.createElement('canvas');
-  canvas.width = 240;
-  canvas.height = 160;
+  canvas.width = 854;
+  canvas.height = 480;
   container.appendChild(canvas);
 
   const gba = new GameBoyAdvance();
